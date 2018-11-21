@@ -1,0 +1,88 @@
+Thread 0xffa867a0
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.socketRead(Ljava/io/FileDescriptor;[BIII)I (SocketInputStream.java:116)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:171)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:141)
+  at sun.nio.cs.StreamDecoder.readBytes()I (StreamDecoder.java:284)
+  at sun.nio.cs.StreamDecoder.implRead([CII)I (StreamDecoder.java:326)
+  at sun.nio.cs.StreamDecoder.read([CII)I (StreamDecoder.java:178)
+  at java.io.InputStreamReader.read([CII)I (InputStreamReader.java:184)
+  at java.io.BufferedReader.fill()V (BufferedReader.java:161)
+  at java.io.BufferedReader.readLine(Z)Ljava/lang/String; (BufferedReader.java:324)
+  at java.io.BufferedReader.readLine()Ljava/lang/String; (BufferedReader.java:389)
+  at com.intellij.rt.execution.application.AppMainV2$1.run()V (AppMainV2.java:64)
+
+  locals:
+    objectId=0xffa63500, line=1
+    objectId=0xffa634d8, line=1
+    objectId=0xffa8df78, line=1
+    objectId=0xffa63500, line=2
+    objectId=0xffa8df78, line=2
+    objectId=0xffa634d8, line=2
+    objectId=0xffa63500, line=3
+    objectId=0xffa8df78, line=3
+    objectId=0xffa8ff88, line=4
+    objectId=0xffa8ff88, line=5
+    objectId=0xffa8ffb8, line=5
+    objectId=0xffa93fc8, line=5
+    objectId=0xffa93ff8, line=5
+    objectId=0xffa8ff88, line=6
+    objectId=0xffa8ffb8, line=6
+    objectId=0xffa94010, line=6
+    objectId=0xffa94010, line=7
+    objectId=0xffa8ffb8, line=7
+    objectId=0xffa94028, line=8
+    objectId=0xffa94028, line=9
+    objectId=0xffa94010, line=9
+    objectId=0xffa94028, line=10
+    objectId=0xffa867a0, line=11
+    objectId=0xffa63598, line=11
+    objectId=0xffa94028, line=11
+
+Thread 0xffa85f10
+
+  locals:
+
+Thread 0xffa86108
+
+  locals:
+
+Thread 0xffa86308
+  at java.lang.Thread.sleep(J)V (Native Method)
+  at geym.zbase.ch5.LongFinalize$LF.finalize()V (LongFinalize.java:17)
+  at java.lang.System$2.invokeFinalize(Ljava/lang/Object;)V (System.java:1270)
+  at java.lang.ref.Finalizer.runFinalizer(Lsun/misc/JavaLangAccess;)V (Finalizer.java:102)
+  at java.lang.ref.Finalizer.access$100(Ljava/lang/ref/Finalizer;Lsun/misc/JavaLangAccess;)V (Finalizer.java:34)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:217)
+
+  locals:
+    objectId=0xffce92c0, line=1
+    objectId=0xffa4cfc8, line=2
+    objectId=0xffce92c0, line=2
+    objectId=0xffce92d0, line=3
+    objectId=0xffa4cfc8, line=3
+    objectId=0xffce92c0, line=3
+    objectId=0xffce92d0, line=4
+    objectId=0xffa4cfc8, line=4
+    objectId=0xffa86308, line=5
+    objectId=0xffa4cfc8, line=5
+    objectId=0xffce92d0, line=5
+
+Thread 0xffa86500
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at java.lang.ref.Reference.tryHandlePending(Z)Z (Reference.java:191)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:153)
+
+  locals:
+    objectId=0xffa9cef0, line=2
+    objectId=0xffa86500, line=3
+
+Thread 0xffa86a58
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at geym.zbase.ch5.LongFinalize$LF.<init>()V (LongFinalize.java:12)
+  at geym.zbase.ch5.LongFinalize.main([Ljava/lang/String;)V (LongFinalize.java:27)
+
+  locals:
+    objectId=0xff836db0, line=2
+
